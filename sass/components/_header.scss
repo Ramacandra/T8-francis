@@ -1,12 +1,4 @@
-.menu-container{
-  display: none;
-}
-.mobile-menu{
-  display: none;
-}
-.menu_toggle {
-  display: none;
-}
+
 
 header {
   width: 100%;
@@ -160,6 +152,17 @@ justify-content: center;
       fill: #2196f3;
     }
   }
+
+  .menu-container{
+    display: none;
+  }
+  .mobile-menu{
+    display: none;
+  }
+  .menu_toggle {
+    display: none;
+  }
+  
   @media (min-width: 768px) {
     .menu-toggle {
       position: absolute;
@@ -181,6 +184,8 @@ justify-content: center;
     .contact {
       display: none;
     }
+
+ 
     .cabezera {
       display: flex;
       flex-direction: row-reverse;
